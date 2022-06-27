@@ -1,0 +1,42 @@
+[
+    {
+        "Nombre":"Trastevere",
+        "Dirección": {
+            "Calle" : "Sol" ,
+            "Numero" : 25 ,
+            "Ciudad" : "Barcelona" ,
+            "CP" : "08014" ,
+            "Localidad" : "Barcelona",
+            "Provincia" : "Barcelona",
+            "País" : "España"
+        },
+        "Empleados":[
+            {"id" : ObjectId("62b9b0c10057966641173129")},
+            {"id" : ObjectId("62b9b0c1005796664117312a")},
+            {"id" : ObjectId("62b9b0c1005796664117312b")}
+        ]
+    },
+    {
+        "Nombre":"Picola Italia",
+        "Dirección": {
+            "Calle" : "Sol" ,
+            "Numero" : 25 ,
+            "Ciudad" : "Girona" ,
+            "CP" : "09001" ,
+            "Localidad" : "Barcelona",
+            "Provincia" : "Barcelona",
+            "País" : "España"
+        },
+        "Empleados":[
+            {"id" : ObjectId("62b9b0c1005796664117312c")},
+            {"id" : ObjectId("62b9b0c1005796664117312d")},
+            {"id" : ObjectId("62b9b0c1005796664117312e")}           
+        ]
+    }
+]
+
+[
+    ObjectId("62b9b7ec0057966641173142"),
+    ObjectId("62b9b7ec0057966641173143")
+    
+]

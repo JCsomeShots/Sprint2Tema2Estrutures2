@@ -1,0 +1,41 @@
+[
+    {
+        "FechaHoraVenta":  new Date(),
+        "Cliente_id":  ObjectId("62b9b0640057966641173126"),
+        "Restaurante_id":  ObjectId("62b9b7ec0057966641173142"),
+        "Listado_Productos":[
+            { "Producto_id": ObjectId("62b9b18f0057966641173133") , "Cantidad": 2},
+            { "Producto_id": ObjectId("62b9b18f0057966641173134") , "Cantidad": 1},
+            { "Producto_id": ObjectId("62b9b18f005796664117313b") , "Cantidad": 1},
+            { "Producto_id": ObjectId("62b9b18f005796664117313c") , "Cantidad": 1},
+            { "Producto_id": ObjectId("62b9b18f005796664117313d") , "Cantidad": 1}      
+        ],
+        "Total": 40.50,
+        "Entrega":"A domicilio",
+        "Repartidor_id": ObjectId("62b9b0c1005796664117312e")          
+        
+    },
+    {
+        "FechaHoraVenta": new Date(),
+        "Cliente_id":  ObjectId("62b9b0640057966641173127"),
+        "Restaurante_id": ObjectId("62b9b7ec0057966641173143"),
+        "Listado_Productos":[
+            { "Producto_id": ObjectId("62b9b18f005796664117312f") , "Cantidad": 2},
+            { "Producto_id": ObjectId("62b9b18f0057966641173136") , "Cantidad": 1},
+            { "Producto_id": ObjectId("62b9b18f0057966641173137"), "Cantidad": 1}
+        ],
+        "Total":25.80,
+        "Entrega":"A domicilio",
+        "Repartidor_id": ObjectId("62b9b0c1005796664117312b")
+        
+    }
+
+]
+[
+    ObjectId("62b9b8a50057966641173144"),
+    ObjectId("62b9b8a50057966641173145")
+    
+]
+
+
+

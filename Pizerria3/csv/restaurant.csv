@@ -1,0 +1,3 @@
+Dirección.CP,Dirección.Calle,Dirección.Ciudad,Dirección.Localidad,Dirección.Numero,Dirección.País,Dirección.Provincia,Empleados,Nombre,_id
+08014,Sol,Barcelona,Barcelona,25,España,Barcelona,"[{""id"":{""$oid"":""62b9b0c10057966641173129""}},{""id"":{""$oid"":""62b9b0c1005796664117312a""}},{""id"":{""$oid"":""62b9b0c1005796664117312b""}}]",Trastevere,62b9b7ec0057966641173142
+09001,Sol,Girona,Barcelona,25,España,Barcelona,"[{""id"":{""$oid"":""62b9b0c1005796664117312c""}},{""id"":{""$oid"":""62b9b0c1005796664117312d""}},{""id"":{""$oid"":""62b9b0c1005796664117312e""}}]",Picola Italia,62b9b7ec0057966641173143

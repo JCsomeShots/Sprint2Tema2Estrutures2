@@ -1,0 +1,56 @@
+[
+    {
+        "Nombre":"User01",
+        "Apellido":"cognom01",
+        "Direccion":{
+            "Calle" : "Constituciò" ,
+            "Numero" : 31 ,
+            "Piso" : "4" ,
+            "Puerta" : "5" ,
+            "Ciudad" : "Barcelona" ,
+            "CP" : "08014" ,
+            "Localidad" : "Barcelona",
+            "Provincia" : "Barcelona",
+            "País" : "España"
+        } ,
+        "Teléfono":633333333
+    },
+    {
+        "Nombre":"User02",
+        "Apellido":"cognom02",
+        "Direccion":{
+            "Calle" : "Constituciò" ,
+            "Numero" : 31 ,
+            "Piso" : "2" ,
+            "Puerta" : "5" ,
+            "Ciudad" : "Barcelona" ,
+            "CP" : "08014" ,
+            "Localidad" : "Barcelona",
+            "Provincia" : "Barcelona",
+            "País" : "España"
+        } ,
+        "Teléfono":633333333
+    },
+    {
+        "Nombre":"User03",
+        "Apellido":"cognom03",
+        "Direccion":{
+            "Calle" : "Constituciò" ,
+            "Numero" : 31 ,
+            "Piso" : "3" ,
+            "Puerta" : "5" ,
+            "Ciudad" : "Barcelona" ,
+            "CP" : "08014" ,
+            "Localidad" : "Barcelona",
+            "Provincia" : "Barcelona",
+            "País" : "España"
+        } ,
+        "Teléfono":633333333
+    }
+]
+[
+    ObjectId("62b9b0640057966641173126"),
+    ObjectId("62b9b0640057966641173127"),
+    ObjectId("62b9b0640057966641173128")
+
+]

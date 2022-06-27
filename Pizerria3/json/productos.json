@@ -1,0 +1,139 @@
+[{
+  "_id": {
+    "$oid": "62b9b18f005796664117312f"
+  },
+  "Tipo": "Bebida",
+  "Nombre": "Coca-cola",
+  "Descripción": "Área bebidas",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 2.5
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173130"
+  },
+  "Tipo": "Bebida",
+  "Nombre": "Fanta",
+  "Descripción": "Área bebidas",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 2.5
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173131"
+  },
+  "Tipo": "Bebida",
+  "Nombre": "Agua 1/2",
+  "Descripción": "Área bebidas",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 3
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173132"
+  },
+  "Tipo": "Bebida",
+  "Nombre": "Agua gas 1/2",
+  "Descripción": "Área bebidas",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 3
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173133"
+  },
+  "Tipo": "Bebida",
+  "Nombre": "Estrella",
+  "Descripción": "Área bebidas",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 4.5
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173134"
+  },
+  "Tipo": "Bebida",
+  "Nombre": "Sin alcohol",
+  "Descripción": "Área bebidas",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 4.5
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173135"
+  },
+  "Tipo": "Hamburguesa",
+  "Nombre": "Crunchy",
+  "Descripción": "Área bLas mejores del condadoebidas",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 8.9
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173136"
+  },
+  "Tipo": "Hamburguesa",
+  "Nombre": "Raclette",
+  "Descripción": "Área bLas mejores del condadoebidas",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 9.4
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173137"
+  },
+  "Tipo": "Hamburguesa",
+  "Nombre": "Foie",
+  "Descripción": "Las mejores del condado",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 11.9
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173138"
+  },
+  "Tipo": "Hamburguesa",
+  "Nombre": "Jack Bacon",
+  "Descripción": "Las mejores del condado",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 11.2
+},{
+  "_id": {
+    "$oid": "62b9b18f0057966641173139"
+  },
+  "Tipo": "Hamburguesa",
+  "Nombre": "Piri Piri",
+  "Descripción": "Las mejores del condado",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 8.2
+},{
+  "_id": {
+    "$oid": "62b9b18f005796664117313a"
+  },
+  "Tipo": "Hamburguesa",
+  "Nombre": "Pulled Pork",
+  "Descripción": "Las mejores del condado",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 10.9
+},{
+  "_id": {
+    "$oid": "62b9b18f005796664117313b"
+  },
+  "Tipo": "Pizza",
+  "Nombre": "Clásica",
+  "Descripción": "Con bordes de queso",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 9.5,
+  "Categoria": "Cat1"
+},{
+  "_id": {
+    "$oid": "62b9b18f005796664117313c"
+  },
+  "Tipo": "Pizza",
+  "Nombre": "Vegetariana",
+  "Descripción": "Con bordes de queso",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 10.4,
+  "Categoria": "Cat1"
+},{
+  "_id": {
+    "$oid": "62b9b18f005796664117313d"
+  },
+  "Tipo": "Pizza",
+  "Nombre": "Barça",
+  "Descripción": "Con bordes de queso",
+  "Imagen_URL": "https://pixabay.com//Tipos",
+  "Precio": 7.1,
+  "Categoria": "Cat2"
+}]

@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "62b9b8a50057966641173144"
+  },
+  "FechaHoraVenta": {
+    "$date": {
+      "$numberLong": "1656338597492"
+    }
+  },
+  "Cliente_id": {
+    "$oid": "62b9b0640057966641173126"
+  },
+  "Restaurante_id": {
+    "$oid": "62b9b7ec0057966641173142"
+  },
+  "Listado_Productos": [
+    {
+      "Producto_id": {
+        "$oid": "62b9b18f0057966641173133"
+      },
+      "Cantidad": 2
+    },
+    {
+      "Producto_id": {
+        "$oid": "62b9b18f0057966641173134"
+      },
+      "Cantidad": 1
+    },
+    {
+      "Producto_id": {
+        "$oid": "62b9b18f005796664117313b"
+      },
+      "Cantidad": 1
+    },
+    {
+      "Producto_id": {
+        "$oid": "62b9b18f005796664117313c"
+      },
+      "Cantidad": 1
+    },
+    {
+      "Producto_id": {
+        "$oid": "62b9b18f005796664117313d"
+      },
+      "Cantidad": 1
+    }
+  ],
+  "Total": 40.5,
+  "Entrega": "A domicilio",
+  "Repartidor_id": {
+    "$oid": "62b9b0c1005796664117312e"
+  }
+},{
+  "_id": {
+    "$oid": "62b9b8a50057966641173145"
+  },
+  "FechaHoraVenta": {
+    "$date": {
+      "$numberLong": "1656338597492"
+    }
+  },
+  "Cliente_id": {
+    "$oid": "62b9b0640057966641173127"
+  },
+  "Restaurante_id": {
+    "$oid": "62b9b7ec0057966641173143"
+  },
+  "Listado_Productos": [
+    {
+      "Producto_id": {
+        "$oid": "62b9b18f005796664117312f"
+      },
+      "Cantidad": 2
+    },
+    {
+      "Producto_id": {
+        "$oid": "62b9b18f0057966641173136"
+      },
+      "Cantidad": 1
+    },
+    {
+      "Producto_id": {
+        "$oid": "62b9b18f0057966641173137"
+      },
+      "Cantidad": 1
+    }
+  ],
+  "Total": 25.8,
+  "Entrega": "A domicilio",
+  "Repartidor_id": {
+    "$oid": "62b9b0c1005796664117312b"
+  }
+}]

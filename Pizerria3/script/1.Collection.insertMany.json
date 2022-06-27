@@ -1,0 +1,336 @@
+> db.clientes.insertMany ( [
+    ...     {
+    ...         "Nombre":"User01",
+    ...         "Apellido":"cognom01",
+    ...         "Direccion":{
+    ...             "Calle" : "Constituciò" ,
+    ...             "Numero" : 31 ,
+    ...             "Piso" : "4" ,
+    ...             "Puerta" : "5" ,
+    ...             "Ciudad" : "Barcelona" ,
+    ...             "CP" : "08014" ,
+    ...             "Localidad" : "Barcelona",
+    ...             "Provincia" : "Barcelona",
+    ...             "País" : "España"
+    ...         } ,
+    ...         "Teléfono":633333333
+    ...     },
+    ...     {
+    ...         "Nombre":"User02",
+    ...         "Apellido":"cognom02",
+    ...         "Direccion":{
+    ...             "Calle" : "Constituciò" ,
+    ...             "Numero" : 31 ,
+    ...             "Piso" : "2" ,
+    ...             "Puerta" : "5" ,
+    ...             "Ciudad" : "Barcelona" ,
+    ...             "CP" : "08014" ,
+    ...             "Localidad" : "Barcelona",
+    ...             "Provincia" : "Barcelona",
+    ...             "País" : "España"
+    ...         } ,
+    ...         "Teléfono":633333333
+    ...     },
+    ...     {
+    ...         "Nombre":"User03",
+    ...         "Apellido":"cognom03",
+    ...         "Direccion":{
+    ...             "Calle" : "Constituciò" ,
+    ...             "Numero" : 31 ,
+    ...             "Piso" : "3" ,
+    ...             "Puerta" : "5" ,
+    ...             "Ciudad" : "Barcelona" ,
+    ...             "CP" : "08014" ,
+    ...             "Localidad" : "Barcelona",
+    ...             "Provincia" : "Barcelona",
+    ...             "País" : "España"
+    ...         } ,
+    ...         "Teléfono":633333333
+    ...     }
+    ... ])
+    {
+        "acknowledged" : true,
+        "insertedIds" : [
+            ObjectId("62b9b0640057966641173126"),
+            ObjectId("62b9b0640057966641173127"),
+            ObjectId("62b9b0640057966641173128")
+        ]
+    }
+
+    
+
+> db.empleados.insertMany([
+...     {
+...         "Nombre":"Rafael",
+...         "Apellido":"Lecina",
+...         "NIF":"000",
+...         "Cargo":"Cocinero",
+...         "Teléfono":"000"
+...     },
+...     {
+...         "Nombre":"Gerardo",
+...         "Apellido":"Castell",
+...         "NIF":"999",
+...         "Cargo":"Cocinero",
+...         "Teléfono":"999"
+...     },
+...     {
+...         "Nombre":"Sonia",
+...         "Apellido":"Gómez",
+...         "NIF":"888",
+...         "Cargo":"Repartidor",
+...         "Teléfono":"888"
+...     },
+...     {
+...         "Nombre":"Veronica",
+...         "Apellido":"Tello",
+...         "NIF":"777",
+...         "Cargo":"Cocinero",
+...         "Teléfono":"777"
+...     },
+...     {
+...         "Nombre":"Sandra",
+...         "Apellido":"Navarro",
+...         "NIF":"666",
+...         "Cargo":"Cocinero",
+...         "Teléfono":"666"
+...     },
+...     {
+...         "Nombre":"Samuel",
+...         "Apellido":"Dávalos",
+...         "NIF":"555",
+...         "Cargo":"Repartidor",
+...         "Teléfono":"555"
+...     }
+... ])
+{
+    "acknowledged" : true,
+    "insertedIds" : [
+        ObjectId("62b9b0c10057966641173129"),
+        ObjectId("62b9b0c1005796664117312a"),
+        ObjectId("62b9b0c1005796664117312b"),
+        ObjectId("62b9b0c1005796664117312c"),
+        ObjectId("62b9b0c1005796664117312d"),
+        ObjectId("62b9b0c1005796664117312e")
+    ]
+}
+
+
+
+> db.productos.insertMany([
+    ...     {
+    ...         "Tipo":"Bebida",
+    ...         "Nombre":"Coca-cola",
+    ...         "Descripción":"Área bebidas",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":2.5
+    ...     },
+    ...     {
+    ...         "Tipo":"Bebida",
+    ...         "Nombre":"Fanta",
+    ...         "Descripción":"Área bebidas",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio": 2.5
+    ...     },
+    ...     {
+    ...         "Tipo":"Bebida",
+    ...         "Nombre":"Agua 1/2",
+    ...         "Descripción":"Área bebidas",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":3.0
+    ...     },
+    ...     {
+    ...         "Tipo":"Bebida",
+    ...         "Nombre":"Agua gas 1/2",
+    ...         "Descripción":"Área bebidas",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":3.0
+    ...     },
+    ...     {
+    ...         "Tipo":"Bebida",
+    ...         "Nombre":"Estrella",
+    ...         "Descripción":"Área bebidas",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":4.5
+    ...     },
+    ...     {
+    ...         "Tipo":"Bebida",
+    ...         "Nombre":"Sin alcohol",
+    ...         "Descripción":"Área bebidas",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio": 4.5
+    ...     },
+    ...     {
+    ...         "Tipo":"Hamburguesa",
+    ...         "Nombre":"Crunchy",
+    ...         "Descripción":"Área bLas mejores del condadoebidas",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":8.9
+    ...     },
+    ...     {
+    ...         "Tipo":"Hamburguesa",
+    ...         "Nombre":"Raclette",
+    ...         "Descripción":"Área bLas mejores del condadoebidas",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":9.4
+    ...     },
+    ...     {
+    ...         "Tipo":"Hamburguesa",
+    ...         "Nombre":"Foie",
+    ...         "Descripción":"Las mejores del condado",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":11.90
+    ...     },
+    ...     {
+    ...         "Tipo":"Hamburguesa",
+    ...         "Nombre":"Jack Bacon",
+    ...         "Descripción":"Las mejores del condado",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":11.20
+    ...     },
+    ...     {
+    ...         "Tipo":"Hamburguesa",
+    ...         "Nombre":"Piri Piri",
+    ...         "Descripción":"Las mejores del condado",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":8.20
+    ...     },
+    ...     {
+    ...         "Tipo":"Hamburguesa",
+    ...         "Nombre":"Pulled Pork",
+    ...         "Descripción":"Las mejores del condado",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":10.90
+    ...     },
+    ...     {
+    ...         "Tipo":"Pizza",
+    ...         "Nombre":"Clásica",
+    ...         "Descripción":"Con bordes de queso",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":9.5,
+    ...         "Categoria":"Cat1"
+    ...     },
+    ...     {
+    ...         "Tipo":"Pizza",
+    ...         "Nombre":"Vegetariana",
+    ...         "Descripción":"Con bordes de queso",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":10.4,
+    ...         "Categoria":"Cat1"
+    ...     },
+    ...     {
+    ...         "Tipo":"Pizza",
+    ...         "Nombre":"Barça",
+    ...         "Descripción":"Con bordes de queso",
+    ...         "Imagen_URL":"https://pixabay.com//Tipos",
+    ...         "Precio":7.10,
+    ...         "Categoria":"Cat2"
+    ...     }
+    ... ])
+    {
+        "acknowledged" : true,
+        "insertedIds" : [
+            ObjectId("62b9b18f005796664117312f"),
+            ObjectId("62b9b18f0057966641173130"),
+            ObjectId("62b9b18f0057966641173131"),
+            ObjectId("62b9b18f0057966641173132"),
+            ObjectId("62b9b18f0057966641173133"),
+            ObjectId("62b9b18f0057966641173134"),
+            ObjectId("62b9b18f0057966641173135"),
+            ObjectId("62b9b18f0057966641173136"),
+            ObjectId("62b9b18f0057966641173137"),
+            ObjectId("62b9b18f0057966641173138"),
+            ObjectId("62b9b18f0057966641173139"),
+            ObjectId("62b9b18f005796664117313a"),
+            ObjectId("62b9b18f005796664117313b"),
+            ObjectId("62b9b18f005796664117313c"),
+            ObjectId("62b9b18f005796664117313d")
+        ]
+    }
+
+> db.restaurant.insertMany([
+    ...     {
+    ...         "Nombre":"Trastevere",
+    ...         "Dirección": {
+    ...             "Calle" : "Sol" ,
+    ...             "Numero" : 25 ,
+    ...             "Ciudad" : "Barcelona" ,
+    ...             "CP" : "08014" ,
+    ...             "Localidad" : "Barcelona",
+    ...             "Provincia" : "Barcelona",
+    ...             "País" : "España"
+    ...         },
+    ...         "Empleados":[
+    ...             {"id" : ObjectId("62b9b0c10057966641173129")},
+    ...             {"id" : ObjectId("62b9b0c1005796664117312a")},
+    ...             {"id" : ObjectId("62b9b0c1005796664117312b")}
+    ...         ]
+    ...     },
+    ...     {
+    ...         "Nombre":"Picola Italia",
+    ...         "Dirección": {
+    ...             "Calle" : "Sol" ,
+    ...             "Numero" : 25 ,
+    ...             "Ciudad" : "Girona" ,
+    ...             "CP" : "09001" ,
+    ...             "Localidad" : "Barcelona",
+    ...             "Provincia" : "Barcelona",
+    ...             "País" : "España"
+    ...         },
+    ...         "Empleados":[
+    ...             {"id" : ObjectId("62b9b0c1005796664117312c")},
+    ...             {"id" : ObjectId("62b9b0c1005796664117312d")},
+    ...             {"id" : ObjectId("62b9b0c1005796664117312e")}           
+    ...         ]
+    ...     }
+    ... ])
+    {
+        "acknowledged" : true,
+        "insertedIds" : [
+            ObjectId("62b9b7ec0057966641173142"),
+            ObjectId("62b9b7ec0057966641173143")
+        ]
+    }
+        
+> db.pedidos.insertMany([
+    ...     {
+    ...         "FechaHoraVenta":  new Date(),
+    ...         "Cliente_id":  ObjectId("62b9b0640057966641173126"),
+    ...         "Restaurante_id":  ObjectId("62b9b7ec0057966641173142"),
+    ...         "Listado_Productos":[
+    ...             { "Producto_id": ObjectId("62b9b18f0057966641173133") , "Cantidad": 2},
+    ...             { "Producto_id": ObjectId("62b9b18f0057966641173134") , "Cantidad": 1},
+    ...             { "Producto_id": ObjectId("62b9b18f005796664117313b") , "Cantidad": 1},
+    ...             { "Producto_id": ObjectId("62b9b18f005796664117313c") , "Cantidad": 1},
+    ...             { "Producto_id": ObjectId("62b9b18f005796664117313d") , "Cantidad": 1}      
+    ...         ],
+    ...         "Total": 40.50,
+    ...         "Entrega":"A domicilio",
+    ...         "Repartidor_id": ObjectId("62b9b0c1005796664117312e")          
+    ...         
+    ...     },
+    ...     {
+    ...         "FechaHoraVenta": new Date(),
+    ...         "Cliente_id":  ObjectId("62b9b0640057966641173127"),
+    ...         "Restaurante_id": ObjectId("62b9b7ec0057966641173143"),
+    ...         "Listado_Productos":[
+    ...             { "Producto_id": ObjectId("62b9b18f005796664117312f") , "Cantidad": 2},
+    ...             { "Producto_id": ObjectId("62b9b18f0057966641173136") , "Cantidad": 1},
+    ...             { "Producto_id": ObjectId("62b9b18f0057966641173137"), "Cantidad": 1}
+    ...         ],
+    ...         "Total":25.80,
+    ...         "Entrega":"A domicilio",
+    ...         "Repartidor_id": ObjectId("62b9b0c1005796664117312b")
+    ...         
+    ...     }
+    ... 
+    ... ])
+    {
+        "acknowledged" : true,
+        "insertedIds" : [
+            ObjectId("62b9b8a50057966641173144"),
+            ObjectId("62b9b8a50057966641173145")
+        ]
+    }
+    
+            

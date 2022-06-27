@@ -1,0 +1,52 @@
+[
+    {
+        "Nombre":"Rafael",
+        "Apellido":"Lecina",
+        "NIF":"000",
+        "Cargo":"Cocinero",
+        "Teléfono":"000"
+    },
+    {
+        "Nombre":"Gerardo",
+        "Apellido":"Castell",
+        "NIF":"999",
+        "Cargo":"Cocinero",
+        "Teléfono":"999"
+    },
+    {
+        "Nombre":"Sonia",
+        "Apellido":"Gómez",
+        "NIF":"888",
+        "Cargo":"Repartidor",
+        "Teléfono":"888"
+    },
+    {
+        "Nombre":"Veronica",
+        "Apellido":"Tello",
+        "NIF":"777",
+        "Cargo":"Cocinero",
+        "Teléfono":"777"
+    },
+    {
+        "Nombre":"Sandra",
+        "Apellido":"Navarro",
+        "NIF":"666",
+        "Cargo":"Cocinero",
+        "Teléfono":"666"
+    },
+    {
+        "Nombre":"Samuel",
+        "Apellido":"Dávalos",
+        "NIF":"555",
+        "Cargo":"Repartidor",
+        "Teléfono":"555"
+    }
+]
+[
+    ObjectId("62b9b0c10057966641173129"),
+    ObjectId("62b9b0c1005796664117312a"),
+    ObjectId("62b9b0c1005796664117312b"),
+    ObjectId("62b9b0c1005796664117312c"),
+    ObjectId("62b9b0c1005796664117312d"),
+    ObjectId("62b9b0c1005796664117312e")
+]

@@ -1,0 +1,16 @@
+Categoria,Descripción,Imagen_URL,Nombre,Precio,Tipo,_id
+,Área bebidas,https://pixabay.com//Tipos,Coca-cola,2.5,Bebida,62b9b18f005796664117312f
+,Área bebidas,https://pixabay.com//Tipos,Fanta,2.5,Bebida,62b9b18f0057966641173130
+,Área bebidas,https://pixabay.com//Tipos,Agua 1/2,3,Bebida,62b9b18f0057966641173131
+,Área bebidas,https://pixabay.com//Tipos,Agua gas 1/2,3,Bebida,62b9b18f0057966641173132
+,Área bebidas,https://pixabay.com//Tipos,Estrella,4.5,Bebida,62b9b18f0057966641173133
+,Área bebidas,https://pixabay.com//Tipos,Sin alcohol,4.5,Bebida,62b9b18f0057966641173134
+,Área bLas mejores del condadoebidas,https://pixabay.com//Tipos,Crunchy,8.9,Hamburguesa,62b9b18f0057966641173135
+,Área bLas mejores del condadoebidas,https://pixabay.com//Tipos,Raclette,9.4,Hamburguesa,62b9b18f0057966641173136
+,Las mejores del condado,https://pixabay.com//Tipos,Foie,11.9,Hamburguesa,62b9b18f0057966641173137
+,Las mejores del condado,https://pixabay.com//Tipos,Jack Bacon,11.2,Hamburguesa,62b9b18f0057966641173138
+,Las mejores del condado,https://pixabay.com//Tipos,Piri Piri,8.2,Hamburguesa,62b9b18f0057966641173139
+,Las mejores del condado,https://pixabay.com//Tipos,Pulled Pork,10.9,Hamburguesa,62b9b18f005796664117313a
+Cat1,Con bordes de queso,https://pixabay.com//Tipos,Clásica,9.5,Pizza,62b9b18f005796664117313b
+Cat1,Con bordes de queso,https://pixabay.com//Tipos,Vegetariana,10.4,Pizza,62b9b18f005796664117313c
+Cat2,Con bordes de queso,https://pixabay.com//Tipos,Barça,7.1,Pizza,62b9b18f005796664117313d
